@@ -1,0 +1,111 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.main {
+  /* border: 2px solid red; */
+  height: 10vh;
+  width: auto;
+  display: flex;
+}
+#pics {
+  height: 200px;
+}
+#mainsub {
+  list-style: none;
+  display: flex;
+  margin-left: 60%;
+  gap: 30px;
+  font-size: x-large;
+  
+}
+#mainsub li:hover {
+  cursor: pointer;
+  color: rgb(5, 223, 5);
+  /* border: 2px solid rgb(92, 92, 7); */
+  border-radius: 12px;
+  text-transform: uppercase;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: fit-content;
+  align-items: center;
+  margin: auto;
+  /* padding-top: 100px; */
+}
+#firsttext {
+  width: 60%;
+  color: rgb(112, 122, 139);
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  height: fit-content;
+  align-items: center;
+  margin: auto;
+  padding: 50px;
+}
+#picss {
+  height: 300px;
+}
+.timeless {
+  /* border: 2px solid red; */
+  height: 70vh;
+  background-color: rgb(12, 11, 11);
+  padding: 100px;
+}
+#pic {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 5%;
+  width: 30%;
+}
+#texts {
+  color: darkgoldenrod;
+}
+#name {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 10px;
+  
+ 
+}
+.dmw {
+  background-color: rgb(23, 6, 43);
+  /* border: 2px solid blue; */
+  height: 60vh;
+  width: auto;
+}
+#dmw2 {
+  /* border: 2px solid red; */
+  height: 20vh;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+  color: rgb(112, 122, 139);
+  padding: 30px;
+}
+#names {
+  color: aliceblue;
+}
+#dmw3 {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 20%;
+}
+
+.class {
+  color: rgb(62, 108, 187);
+  color: rgb(0, 255, 213);
+  color: rgb(112, 122, 139) for;
+  background: rgb(62, 108, 187);
+}
